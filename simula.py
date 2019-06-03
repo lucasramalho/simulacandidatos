@@ -1,3 +1,11 @@
+#   ME323C
+#   Simulação de eleição com candidatos A e B
+#
+#   Nome: Lucas Alfonso Ramalho
+#   RA: 138725
+#   Turma C
+#   #   #   #   #   #   #   #   #   #   #   #
+
 from random import randrange
 
 #Eleitores de cada candidato e o total
