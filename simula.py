@@ -24,6 +24,7 @@ while repetir > 0:
 
 pchapeu_medio = pchapeu_medio/2000
 desvio = pchapeu_medio*(1 - pchapeu_medio)/n
+
 print("Para n = 20,o p chapeu médio é = ", pchapeu_medio, "\n     e seu desvio padrao é:", desvio)
 
 pchapeu = 0
@@ -46,4 +47,5 @@ while repetir > 0:
 
 pchapeu_medio = pchapeu_medio/2000
 desvio = pchapeu_medio*(1 - pchapeu_medio)/n
+
 print("Para n = 100,o p chapeu médio é = ", pchapeu_medio, "\n     e seu desvio padrao é:", desvio)
