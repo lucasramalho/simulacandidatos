@@ -13,9 +13,10 @@ repetir = 2000
 
 # ----- Usando n = 20 -------
 
+n = 20
+
 while repetir > 0:
   pchapeu = 0
-  n = 20
   i = n
   while i > 0:
     x = randrange(total)  #Amostra 1 eleitor
@@ -35,6 +36,8 @@ print("Para n = 20,o p chapeu médio é = ", pchapeu_medio, "\n     e seu desvio
 
 # ----- Usando n = 100 -------
 
+n = 100
+
 pchapeu = 0
 pchapeu_medio = 0
 
@@ -42,7 +45,6 @@ repetir = 2000
 
 while repetir > 0:
   pchapeu = 0
-  n = 100
   i = n
   while i > 0:
     x = randrange(total)
@@ -50,7 +52,7 @@ while repetir > 0:
       pchapeu += 1
     i = i -1
   
-  pchapeu = pchapeu/100
+  pchapeu = pchapeu/n
   pchapeu_medio += pchapeu
   repetir = repetir - 1
 
